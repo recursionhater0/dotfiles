@@ -1,0 +1,67 @@
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Clean Docker containers, images, networks, and volumes
+brew "docker-clean"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Mac App Store command-line interface
+brew "mas"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# YAML Parser
+brew "libyaml"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
+# Extremely fast Python package installer and resolver, written in Rust
+brew uv
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Python version management
+brew "pyenv"
+# Intuitive find & replace CLI
+brew "sd"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# General-purpose lossless data-compression library
+brew "zlib"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Next-generation plugin manager for zsh
+brew "zplug"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker"
+# Web browser
+cask "google-chrome"
+# Terminal built on web technologies
+cask "hyper"
+# Desktop shield and keystroke interceptor
+cask "keyboard-cleaner"
+# Clipboard manager
+cask "clipy"
+# Quicklook extension for source files
+cask "syntax-highlight"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Delete Apps", id: 1033808943
