@@ -6,6 +6,10 @@ brew "bat"
 brew "openssl@3"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Insanely fast image printing in your terminal
+brew "catimg"
+# Command-line hex viewer
+brew "hexyl"
 # Clean Docker containers, images, networks, and volumes
 brew "docker-clean"
 # Simple, fast and user-friendly alternative to find
