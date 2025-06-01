@@ -24,4 +24,6 @@ mc () {
 }
 
 # gitignore generation
+# Example:
+# gi macos,pycharm > .gitignore
 gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}
