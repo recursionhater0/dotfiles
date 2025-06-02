@@ -1,11 +1,15 @@
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Insanely fast image printing in your terminal
 brew "catimg"
 # Command-line hex viewer
