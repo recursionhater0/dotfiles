@@ -28,8 +28,6 @@ brew "jq"
 brew "libyaml"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Python IDE
-brew "pycharm"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
@@ -70,4 +68,6 @@ cask "syntax-highlight"
 cask "telegram"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Python IDE
+cask "pycharm"
 mas "Delete Apps", id: 1033808943
