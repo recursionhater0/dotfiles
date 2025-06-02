@@ -50,6 +50,8 @@ brew "zoxide"
 brew "zplug"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Pack repository contents into a single AI-friendly file
+brew "repomix"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
