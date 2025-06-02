@@ -23,6 +23,7 @@
             path: config/zshenv
             force: true
         ~/.zplugrc: config/zplugrc
+        ~/.hyper.js: config/hyper.js
 
         # Git configuration:
         ~/.gitconfig: config/gitconfig
