@@ -105,16 +105,16 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # === Safari ===
 
 # Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-
-# Improve Safari security
-defaults write com.apple.Safari \
-  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
-  -bool false
-defaults write com.apple.Safari \
-  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles \
-  -bool false
+#defaults write com.apple.Safari UniversalSearchEnabled -bool false
+#defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+#
+## Improve Safari security
+#defaults write com.apple.Safari \
+#  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
+#  -bool false
+#defaults write com.apple.Safari \
+#  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles \
+#  -bool false
 
 
 # === Text editing ===
