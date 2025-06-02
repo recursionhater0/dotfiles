@@ -28,8 +28,8 @@ brew "jq"
 brew "libyaml"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Extremely fast Python package installer and resolver, written in Rust
-brew uv
+# Python IDE
+brew "pycharm"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python version management
