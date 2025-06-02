@@ -15,7 +15,7 @@ brew "catimg"
 # Command-line hex viewer
 brew "hexyl"
 # Clean Docker containers, images, networks, and volumes
-brew "docker-clean"
+# brew "docker-clean"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # GitHub command-line tool
@@ -57,7 +57,7 @@ brew "repomix"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+# cask "docker"
 # Web browser
 cask "google-chrome"
 # Terminal built on web technologies
