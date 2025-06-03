@@ -3,10 +3,14 @@
 # or here: https://www.nano-editor.org/dist/v3/nanorc.5.html
 
 # Editor:
-set tabstospaces
+set autoindent
+set tabsize 4
+#set tabstospaces
 set trimblanks
 
-set softwrap
+set linenumbers
+set mouse
+#set softwrap
 set atblanks
 set constantshow
 
