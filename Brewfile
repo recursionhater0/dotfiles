@@ -54,6 +54,8 @@ brew "zplug"
 brew "zsh"
 # Pack repository contents into a single AI-friendly file
 brew "repomix"
+# RDBS
+brew "postgresql"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -74,4 +76,6 @@ cask "telegram"
 cask "zoom"
 # Python IDE
 cask "pycharm"
+
+# AppStore related apps
 mas "Delete Apps", id: 1033808943
