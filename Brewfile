@@ -56,6 +56,8 @@ brew "zsh"
 brew "repomix"
 # RDBS
 brew "postgresql"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
