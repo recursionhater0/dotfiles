@@ -64,6 +64,8 @@ brew "pstree"
 brew "redis"
 # Voice and text chat software
 cask "discord"
+# Another Redis Desktop Manager
+cask "another-redis-desktop-manager"
 # App to build and share containerised applications and microservices
 # cask "docker"
 # Web browser
