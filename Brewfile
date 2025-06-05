@@ -66,6 +66,8 @@ brew "redis"
 cask "discord"
 # Another Redis Desktop Manager
 cask "another-redis-desktop-manager"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # App to build and share containerised applications and microservices
 # cask "docker"
 # Web browser
