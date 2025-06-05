@@ -60,6 +60,8 @@ brew "postgresql"
 brew "watch"
 # Show ps output as a tree
 brew "pstree"
+# Persistent key-value database, with built-in net interface
+brew "redis"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
