@@ -68,6 +68,8 @@ cask "discord"
 cask "another-redis-desktop-manager"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Collaboration platform for API development
+cask "postman"
 # App to build and share containerised applications and microservices
 # cask "docker"
 # Web browser
