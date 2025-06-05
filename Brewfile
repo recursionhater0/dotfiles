@@ -58,6 +58,8 @@ brew "repomix"
 brew "postgresql"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Show ps output as a tree
+brew "pstree"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
