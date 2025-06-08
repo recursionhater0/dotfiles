@@ -10,6 +10,8 @@ brew "openssl@3"
 brew "curl"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Optional for ansible
+# brew "hudochenkov/sshpass/sshpass"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Insanely fast image printing in your terminal
