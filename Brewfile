@@ -8,6 +8,8 @@ brew "bat"
 brew "openssl@3"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Insanely fast image printing in your terminal
