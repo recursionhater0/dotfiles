@@ -66,6 +66,8 @@ brew "watch"
 brew "pstree"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# https://github.com/Azure/azure-uamqp-python/issues/371#issuecomment-2074667906
+# brew install llvm@14
 # Voice and text chat software
 cask "discord"
 # Another Redis Desktop Manager
