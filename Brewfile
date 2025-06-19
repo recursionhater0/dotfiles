@@ -68,6 +68,8 @@ brew "pstree"
 brew "redis"
 # https://github.com/Azure/azure-uamqp-python/issues/371#issuecomment-2074667906
 # brew install llvm@14
+# Graph visualization software from AT&T and Bell Labs
+brew install graphviz
 # Voice and text chat software
 cask "discord"
 # Another Redis Desktop Manager
