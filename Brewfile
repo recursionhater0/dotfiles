@@ -70,6 +70,8 @@ brew "redis"
 # brew install llvm@14
 # Graph visualization software from AT&T and Bell Labs
 brew install graphviz
+# Improved top (interactive process viewer)
+brew install htop
 # Voice and text chat software
 cask "discord"
 # Another Redis Desktop Manager
