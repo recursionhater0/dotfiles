@@ -33,6 +33,9 @@ HIST_IGNORE_SPACE='true'
 plugins=(
   gitfast
   gh
+  uv
+  docker
+  kubectl
 )
 
 # Sourcing the Oh-My-ZSH source:
@@ -63,3 +66,5 @@ source "$HOME/.shell/.completions"
 if [[ -f "$HOME/.shell_env_local" ]]; then
   source "$HOME/.shell_env_local"
 fi
+
+. "$HOME/.local/bin/env"
