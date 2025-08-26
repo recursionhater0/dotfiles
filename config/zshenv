@@ -45,3 +45,7 @@ _fzf_complete_realpath () {
     echo "$realpath" | fold -w "$FZF_PREVIEW_COLUMNS"
   fi
 }
+
+# Kubectl
+export KUBECONFIG=$KUBECONFIG:~/.kube/config:~/.kube/dev-config.yaml
+export KUBECONFIG=$KUBECONFIG:~/.kube/config:~/.kube/prod-config.yaml
