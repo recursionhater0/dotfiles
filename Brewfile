@@ -80,6 +80,8 @@ cask "clipy"
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# System monitor for the menu bar (CPU, GPU, RAM, disk, network, sensors)
+cask "stats"
 
 # AppStore related apps
 mas "Delete Apps", id: 1033808943
