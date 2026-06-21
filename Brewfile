@@ -8,16 +8,8 @@ brew "bat"
 brew "openssl@3"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Automate deployment, configuration, and upgrading
-brew "ansible"
-# Optional for ansible
-# brew "hudochenkov/sshpass/sshpass"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# Insanely fast image printing in your terminal
-brew "catimg"
-# Command-line hex viewer
-brew "hexyl"
 # Clean Docker containers, images, networks, and volumes
 # brew "docker-clean"
 # Simple, fast and user-friendly alternative to find
@@ -56,8 +48,6 @@ brew "zoxide"
 brew "zplug"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Pack repository contents into a single AI-friendly file
-brew "repomix"
 # RDBS
 brew "postgresql"
 # Executes a program periodically, showing output fullscreen
@@ -68,24 +58,16 @@ brew "pstree"
 brew "redis"
 # https://github.com/Azure/azure-uamqp-python/issues/371#issuecomment-2074667906
 # brew install llvm@14
-# Graph visualization software from AT&T and Bell Labs
-brew "graphviz"
 # Improved top (interactive process viewer)
 brew "htop"
 # Voice and text chat software
 cask "discord"
-# Another Redis Desktop Manager
-cask "another-redis-desktop-manager"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-# Collaboration platform for API development
-cask "postman"
 # App to build and share containerised applications and microservices
 # cask "docker"
 # Web browser
 cask "google-chrome"
-# Terminal built on web technologies
-cask "hyper"
 # Desktop shield and keystroke interceptor
 cask "keyboard-cleaner"
 # Clipboard manager
@@ -94,8 +76,6 @@ cask "clipy"
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Video communication and virtual meeting platform
-cask "zoom"
 # Python IDE
 cask "pycharm"
 

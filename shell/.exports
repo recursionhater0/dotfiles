@@ -17,11 +17,8 @@ export PKG_CONFIG_PATH="$(brew --prefix)/opt/openssl/lib/pkgconfig"
 
 # These lines should be the first ones!
 
-# Adds `pipx` binary files:
+# Adds `pipx` and `uv` binary files (both installed to ~/.local/bin):
 PATH="$HOME/.local/bin:$PATH"
-
-# Adds `poetry` binary, should be added to the end:
-PATH="$HOME/.poetry/bin:$PATH"
 
 
 # === General ===
@@ -61,12 +58,6 @@ export BAT_THEME="$SOBOLE_SYNTAX_THEME"
 
 # pyenv:
 eval "$(pyenv init --path)"
-
-
-# === Poetry ===
-# https://python-poetry.org/docs/configuration/
-
-export POETRY_VIRTUALENVS_IN_PROJECT=true
 
 
 # === Code highlight ===
