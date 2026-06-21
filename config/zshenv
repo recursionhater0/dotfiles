@@ -46,5 +46,6 @@ _fzf_complete_realpath () {
   fi
 }
 
-# Kubectl
-export KUBECONFIG=~/.kube/config:~/.kube/dev-config.yaml:~/.kube/prod-config.yaml
+# Kubectl uses ~/.kube/config by default. Per-machine configs (dev/prod)
+# belong in ~/.shell_env_local, not here, e.g.:
+#   export KUBECONFIG=~/.kube/config:~/.kube/dev-config.yaml
