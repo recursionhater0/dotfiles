@@ -47,5 +47,4 @@ _fzf_complete_realpath () {
 }
 
 # Kubectl
-export KUBECONFIG=$KUBECONFIG:~/.kube/config:~/.kube/dev-config.yaml
-export KUBECONFIG=$KUBECONFIG:~/.kube/config:~/.kube/prod-config.yaml
+export KUBECONFIG=~/.kube/config:~/.kube/dev-config.yaml:~/.kube/prod-config.yaml

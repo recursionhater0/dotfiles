@@ -1,6 +1,6 @@
 # Settings for `nano` editor
 # Full list of settings might be shown via `man nano`
-# or here: https://www.nano-editor.org/dist/v3/nanorc.5.html
+# or here: https://www.nano-editor.org/dist/latest/nanorc.5.html
 
 # Editor:
 set autoindent
@@ -25,4 +25,3 @@ set historylog
 
 # Syntax highlight:
 include /opt/homebrew/opt/nano/share/nano/*.nanorc
-include /opt/homebrew/opt/nano/share/nano/extra/*.nanorc

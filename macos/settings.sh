@@ -160,9 +160,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 defaults write com.apple.appstore InAppReviewEnabled -int 0
 
 
-# === Maccy ===
-
-
 # Restarting apps:
 echo 'Restarting apps...'
 killall Finder

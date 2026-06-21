@@ -10,6 +10,10 @@ brew "openssl@3"
 brew "curl"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Insanely fast image printing in your terminal (fzf image previews)
+brew "catimg"
+# Command-line hex viewer (fzf binary-file previews)
+brew "hexyl"
 # Clean Docker containers, images, networks, and volumes
 # brew "docker-clean"
 # Simple, fast and user-friendly alternative to find
