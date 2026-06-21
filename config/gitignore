@@ -186,3 +186,5 @@ erl_crash.dump
 #### custom ####
 .vscode/tags
 .pyre
+
+**/.claude/settings.local.json

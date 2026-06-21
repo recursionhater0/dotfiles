@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 # This file must be empty
+
+. "$HOME/.local/bin/env"

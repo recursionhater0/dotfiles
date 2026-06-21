@@ -68,3 +68,4 @@ if [[ -f "$HOME/.shell_env_local" ]]; then
 fi
 
 . "$HOME/.local/bin/env"
+export PATH="$HOME/.local/bin:$PATH"
