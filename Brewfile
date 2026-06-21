@@ -80,8 +80,6 @@ cask "clipy"
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Python IDE
-cask "pycharm"
 
 # AppStore related apps
 mas "Delete Apps", id: 1033808943
